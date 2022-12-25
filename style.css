@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100%;
+  text-align: center;
 }
 
 html {
@@ -14,16 +15,19 @@ html {
 
 body {
   font-size: 1.3em;
+  color: black;
+  background: url("https://images2.alphacoders.com/961/961345.jpg") center no-repeat;
+  background-size: cover;
+   
 }
  
 header {
   height: 100%;
-  position: relative;
+  position: relative; 
   overflow: hidden;
   /* Image Credit: Unsplash.me */
-  background: url(https://wallpaperaccess.com/full/1664865.jpg) center no-repeat;
-  background-size: cover;
-}
+} 
+
 header .content {
   position: absolute;
   top: 0;
@@ -62,44 +66,49 @@ header .overlay {
   right: 0;
   left: 0;
   bottom: 0;
-  background:#333 center no-repeat;
+  /*background:#333 center no-repeat;*/
   background-size: cover;
   z-index: 0;
   opacity: 0;  --filter: blur(4px);
 }
-img{
-  margin-right:20px
-}
+
 .site {
   padding: 20em 0;
   text-align: center;
-  background-color: #efefef;
   font-size: .8em;
-  color: #444;
-  position:relative
+  color: lightgrey;
+  position:relative;
 }
 .site a {
-  color: #666;
+  color: white;
   text-decoration: none;
 }
 .site a:hover {
-  color: #222;
+  color: white;
 }
 
 .site nav{
-   background-size: cover;
   position:absolute;
   top:0;
   left:0;
-  background:#222;
-  width:100%
+  width:100%;
+  margin-top: 10px;
 }
 .site nav a{
   padding:10px 30px;
   font-size:1.3em; 
-  display:inline-block
+  display:inline-block;
+  position: relative;
+  z-index: 5;
+  transition: all .5s;
 }
 .site nav a:hover{
-  background:#333;
-  color:#fff
+  background: lightgrey;
+  color:#fff;
+  border-radius: 25% 10%;
+}
+
+#contenu {
+  width: auto;
+  text-align: center;
 }
