@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Carte de Séville</title>
+    <link rel="stylesheet" href="css_Map.css">
+    <link rel="stylesheet" href="../style_charte_graphique.css">
+</head>
+
+<body>
+    <div class="box">
+        <input type="checkbox" name="" id="" class="check">
+        <ul class="menu-items">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="../information/informations.html">Informations</a></li>
+            <li><a href="../Parcours/parcours.html">Parcours</a></li>
+            <li><a href="../Infos-pratiques/infos_pratiques.html">Infos-pratiques</a></li>
+        </ul>
+        <div class="ham-menu">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+    </div>
+
+    <div class="choixlangue">
+        <p class="langue">
+            <a class="langue2" href="">En</a>
+            <a href="" class="langue2">Es</a>
+            <a href="" class="langue2">Fr</a>
+        </p>
+    </div>
+
+    <h1>Carte</h1>
+
+    <div class="container_maptxt">
+        <SPAN><img style="border-radius: 20px;" src="Images\quartier-seville.jpg" usemap="#image-map"></SPAN>
+        <SPAN class="Texte">Séville est composée de 7 quartiers principaux très sympatiques ou vous pourrez
+            séjourner.<br>
+            Nous vous conseillons même de visiter plusieurs de ces quartiers.<br>
+            Voici la liste de ces différents quartiers :<br><br>
+            <UL class="quartiers_lst">
+                <li>La Cartuja</li>
+                <li>Macarena</li>
+                <li>El Centro <i>(le quartier commerçant)</i></li>
+                <li>Santa Cruz <i>(Un quartier historique)</i></li>
+                <li>El Porvenir <i>(Le quartier des parcs)</i></li>
+                <li>El Arenal</li>
+                <li>Triana</li>
+            </UL><br>
+            Vous trouverez ce que vous cherchez dans l’un de ces quartiers, certains sont très animées avec plusieurs
+            bars par exemple. Mais d’autres sont plus calme.
+            Vous pouvez cliquez sur l’un des quartiers de la carte situé à gauche, vous obtiendrez toutes les
+            informations concernant le quartier sur lequel vous avez cliqué.
+        </SPAN>
+    </div>
+
+    <map name="image-map">
+        <area alt="Macarena" title="Macarena" href="Macarena.html"
+            coords="341,168,267,268,260,305,401,310,421,293,418,171,376,176,341,168,342,168" shape="poly">
+        <area alt="La Cartuja" title="La Cartuja" href="LaCartuja.html"
+            coords="224,2,397,0,387,45,212,308,225,341,158,354,156,330" shape="poly">
+        <area alt="Triana" title="Triana" href="Triana.html"
+            coords="163,361,223,349,328,473,367,540,361,576,257,582,224,577,155,509" shape="poly">
+        <area alt="El Arenal" title="El Arenal" href="ElArenal.html"
+            coords="239,345,285,334,329,377,361,431,360,467,352,478" shape="poly">
+        <area alt="El Porvenir" title="El Porvenir" href="ElPorvenir.html"
+            coords="358,476,408,582,537,582,572,441,439,403,416,461" shape="poly">
+        <area alt="Santa Cruz" title="Santa Cruz" href="SantaCruz.html"
+            coords="364,457,417,454,436,406,407,364,338,381,366,438" shape="poly">
+        <area alt="El Centro" title="El Centro" href="ElCentro.html"
+            coords="277,308,415,311,408,361,382,367,342,368,334,374,292,337" shape="poly">
+    </map>
+</body>
+
+</html>
